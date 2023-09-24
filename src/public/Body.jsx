@@ -98,7 +98,7 @@ console.log(flags)
                
                 {flags  && flags.map((flag, flagindex) => 
                   <div className="card" key={flagindex}>
-                      
+                
                             <Card sx={{ maxWidth: 345 }}>
                             <CardMedia
                                 component="img"
@@ -120,7 +120,7 @@ console.log(flags)
                                 <Button size="small">Learn More</Button>
                             </CardActions>
                     </Card>
-                        
+                         
                   </div>
                     
                 )}
