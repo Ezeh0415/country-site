@@ -1,0 +1,70 @@
+@import "page.scss";
+.main-template {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 400px;
+        margin: 50px auto;
+        
+    }
+    h1 {
+        text-transform: $text-transform;
+        text-align: center;
+        color: $color;
+    }
+}
+
+.head-section {
+    display: flex;
+    justify-content: space-around;
+    img {
+        width:80px;
+        border-radius: 30px;
+    }
+    ul {
+        a {
+            text-decoration: $text-deco;
+            color:black;
+            font-size: x-large;
+            margin: 80px 0 0 20px;
+            text-transform: $text-transform;
+        }
+    }
+}
+
+.body-section {
+    display: flex;
+    justify-content: space-between;
+    .drawer {
+        margin: -10px 0 0 -2rem;
+        padding: 0px;
+        border: solid 1px ;
+        width: 220px;
+        height:590px;
+        overflow: scroll;
+        
+        ul {
+            a {
+                text-decoration: $text-deco;
+                text-transform: $text-transform;
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                color:black;
+            }
+        }
+    }
+}
+
+input {
+    margin: 0 0 0 1.4rem;
+    padding: 6px;
+    position: sticky;
+    top: 0px;
+    width: 165px;
+
+    ::placeholder {
+        color:$color;
+    }
+}
